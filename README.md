@@ -43,6 +43,11 @@ The script will only import data from the file if it is not already imported.
 This is very important to avoid the overwriting of the changes.
 The process is fully automated and does not require additional steps.
 
+# Start flask server to run the requests
+```
+python app.py
+```
+
 # Examples (Question 2)
 c. http://127.0.0.1:5000/top?start_dt=1743-11-01&end_dt=1744-10-01&n_city=10
 
